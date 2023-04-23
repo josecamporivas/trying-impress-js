@@ -1,0 +1,33 @@
+body{
+    background-color: #223;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.step{
+    transition: opacity 0.5s;
+    transition: filter 0.5s;
+}
+
+.past,
+.future{
+    opacity: 0.2;
+}
+
+.present{
+    filter: drop-shadow(0 0 4px white);
+}
+
+.slide{
+    background-color: #334;
+    width: 512px;
+    height: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
